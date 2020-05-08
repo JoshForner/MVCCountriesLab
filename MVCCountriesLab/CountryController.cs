@@ -46,7 +46,7 @@ namespace MVCCountriesLab
         {
             CountryListView countries = new CountryListView(CountryDb);
             countries.Display();
-            Console.Write("Hello welcome to the country app. Please select a country from the following list: ");
+            Console.Write("Hello welcome to the country app. Please select a country from the above list: ");
             string answer = Console.ReadLine();
             int index = int.Parse(answer);
             Console.WriteLine();
@@ -58,7 +58,7 @@ namespace MVCCountriesLab
         {
             CountryListView countries = new CountryListView(CountryDb);
             countries.Display();
-            Console.Write("Please select a country from the following list: ");
+            Console.Write("Please select a country from the above list: ");
             string answer = Console.ReadLine();
             int index = int.Parse(answer);
             Console.WriteLine();

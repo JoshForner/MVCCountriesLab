@@ -56,7 +56,10 @@ namespace MVCCountriesLab
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.White;
                 }
-                Console.WriteLine($"Colors: {DisplayCountry.Colors[i]}");
+                Console.Write($"Colors: {DisplayCountry.Colors[i]}");
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine();
             }
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
